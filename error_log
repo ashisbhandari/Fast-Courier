@@ -1,0 +1,70 @@
+[28-Jan-2025 14:04:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/ashishbh/public_html/change.php:3
+Stack trace:
+#0 /home/ashishbh/public_html/change.php(3): mysqli_connect()
+#1 {main}
+  thrown in /home/ashishbh/public_html/change.php on line 3
+[28-Jan-2025 14:04:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/ashishbh/public_html/change.php:3
+Stack trace:
+#0 /home/ashishbh/public_html/change.php(3): mysqli_connect()
+#1 {main}
+  thrown in /home/ashishbh/public_html/change.php on line 3
+[28-Jan-2025 14:07:21 UTC] PHP Warning:  Undefined array key "user" in /home/ashishbh/public_html/userinfo.php on line 17
+[28-Jan-2025 14:07:21 UTC] PHP Warning:  Undefined array key "email" in /home/ashishbh/public_html/userinfo.php on line 18
+[28-Jan-2025 14:07:21 UTC] PHP Warning:  Undefined array key "mobile" in /home/ashishbh/public_html/userinfo.php on line 19
+[28-Jan-2025 14:07:21 UTC] PHP Warning:  Undefined array key "comments" in /home/ashishbh/public_html/userinfo.php on line 20
+[28-Jan-2025 14:13:28 UTC] PHP Warning:  Undefined array key "name" in /home/ashishbh/public_html/signupdb.php on line 12
+[28-Jan-2025 14:13:28 UTC] PHP Warning:  Undefined array key "email" in /home/ashishbh/public_html/signupdb.php on line 13
+[28-Jan-2025 14:13:28 UTC] PHP Warning:  Undefined array key "address" in /home/ashishbh/public_html/signupdb.php on line 14
+[28-Jan-2025 14:13:28 UTC] PHP Warning:  Undefined array key "password" in /home/ashishbh/public_html/signupdb.php on line 15
+[28-Jan-2025 14:13:28 UTC] PHP Warning:  Undefined array key "about" in /home/ashishbh/public_html/signupdb.php on line 17
+[28-Jan-2025 14:32:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in /home/ashishbh/public_html/signupdb.php:26
+Stack trace:
+#0 /home/ashishbh/public_html/signupdb.php(26): mysqli_connect()
+#1 {main}
+  thrown in /home/ashishbh/public_html/signupdb.php on line 26
+[28-Jan-2025 14:33:39 UTC] PHP Warning:  Undefined variable $name in /home/ashishbh/public_html/signupdb.php on line 27
+[28-Jan-2025 14:33:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/ashishbh/public_html/signupdb.php:31
+Stack trace:
+#0 /home/ashishbh/public_html/signupdb.php(31): mysqli->query()
+#1 {main}
+  thrown in /home/ashishbh/public_html/signupdb.php on line 31
+[28-Jan-2025 14:35:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ashishbh_fastcourier'@'localhost' to database 'SagarDahal' in /home/ashishbh/public_html/signupdb.php:38
+Stack trace:
+#0 /home/ashishbh/public_html/signupdb.php(38): mysqli_query()
+#1 {main}
+  thrown in /home/ashishbh/public_html/signupdb.php on line 38
+[28-Jan-2025 14:36:31 UTC] PHP Warning:  Undefined array key "name" in /home/ashishbh/public_html/signupdb.php on line 13
+[28-Jan-2025 14:36:31 UTC] PHP Warning:  Undefined array key "email" in /home/ashishbh/public_html/signupdb.php on line 14
+[28-Jan-2025 14:36:31 UTC] PHP Warning:  Undefined array key "address" in /home/ashishbh/public_html/signupdb.php on line 15
+[28-Jan-2025 14:36:31 UTC] PHP Warning:  Undefined array key "password" in /home/ashishbh/public_html/signupdb.php on line 16
+[28-Jan-2025 14:36:31 UTC] PHP Warning:  Undefined array key "about" in /home/ashishbh/public_html/signupdb.php on line 17
+[28-Jan-2025 14:36:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect database name '' in /home/ashishbh/public_html/signupdb.php:38
+Stack trace:
+#0 /home/ashishbh/public_html/signupdb.php(38): mysqli_query()
+#1 {main}
+  thrown in /home/ashishbh/public_html/signupdb.php on line 38
+[28-Jan-2025 14:48:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE domesticinfo (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+...' at line 2 in /home/ashishbh/public_html/signupdb.php:56
+Stack trace:
+#0 /home/ashishbh/public_html/signupdb.php(56): mysqli_query()
+#1 {main}
+  thrown in /home/ashishbh/public_html/signupdb.php on line 56
+[28-Jan-2025 14:48:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE domesticinfo (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+...' at line 2 in /home/ashishbh/public_html/signupdb.php:56
+Stack trace:
+#0 /home/ashishbh/public_html/signupdb.php(56): mysqli_query()
+#1 {main}
+  thrown in /home/ashishbh/public_html/signupdb.php on line 56
+[28-Jan-2025 14:48:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREATE TABLE domesticinfo (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+...' at line 2 in /home/ashishbh/public_html/signupdb.php:56
+Stack trace:
+#0 /home/ashishbh/public_html/signupdb.php(56): mysqli_query()
+#1 {main}
+  thrown in /home/ashishbh/public_html/signupdb.php on line 56
+[15-Mar-2025 09:03:22 UTC] PHP Warning:  Undefined array key "user" in /home/ashishbh/public_html/userinfo.php on line 17
+[15-Mar-2025 09:03:22 UTC] PHP Warning:  Undefined array key "email" in /home/ashishbh/public_html/userinfo.php on line 18
+[15-Mar-2025 09:03:22 UTC] PHP Warning:  Undefined array key "mobile" in /home/ashishbh/public_html/userinfo.php on line 19
+[15-Mar-2025 09:03:22 UTC] PHP Warning:  Undefined array key "comments" in /home/ashishbh/public_html/userinfo.php on line 20
